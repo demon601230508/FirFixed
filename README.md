@@ -1,7 +1,7 @@
 # FirFixed
 FirFixed in C
 example:
-`
+``
 int16_t coeffs_lp_355[ 63 ] =
 {193, 199, 205, 211, 217, 223, 229, 234, 240, 245, 250, 255, 259, 264,
  268, 272, 276, 280, 283, 286, 289, 292, 294, 296, 298, 300, 301, 303,
@@ -9,4 +9,4 @@ int16_t coeffs_lp_355[ 63 ] =
  289, 286, 283, 280, 276, 272, 268, 264, 259, 255, 250, 245, 240, 234,
  229, 223, 217, 211, 205, 199, 193};//63 order
 fir_fixed_t filter;
-firFixedInit(&filter,inputlen,63,coeffs_lp_355);`
+firFixedInit(&filter,inputlen,63,coeffs_lp_355);``
